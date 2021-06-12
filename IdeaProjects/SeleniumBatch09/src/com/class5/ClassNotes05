@@ -1,0 +1,56 @@
+Class 5
+
+Handling Checkboxes and RadioButtons:
+1. if you have only one checkbox or radiobutton -- you can simply click on it
+2. if you have multiple checkboxes or radiobuttons - store them in a list and loop through
+
+Dropdowns
+Dropdown is a menu which allows you to select one or multiple options
+
+Types of Dropdowns:
+1. Single select
+2. Multiple Select
+
+Handling DropDowns:
+1. click on the dropdown click on the option
+2. using Select Class:
+                in order to use select class we need to make sure we have
+                a <select> tag in html
+
+Selecting options from dropdown can be done in 3 ways:
+1. by index
+2. by visible text
+3. by value
+
+In order to deselect options from dropdown we can use the following methods:
+Your DD must be multiple select
+deselectByIndex()
+deselectByVisibleText()
+deselectByValue()
+deselectAll()
+
+
+TC 1: Facebook dropdown verification
+Open chrome browser
+Go to “https://www.facebook.com”
+click on create new account
+Verify:
+month dd has 12 month options
+day dd has 31 day options
+year dd has 115 year options
+Select your date of birth
+Quit browser
+
+HW1
+Go to facebook sign up page
+Fill out the whole form
+Click signup
+
+HW2
+Go to ebay.com
+get all the categories and print them in the console
+select Computers/Tables & Networking
+click on search
+verify the header
+
+

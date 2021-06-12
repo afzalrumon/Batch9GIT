@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ahuss/IdeaProjects/TestNg">
+        <classes>
+            <class name="Hw.Task1">
+                <methods>
+                    <include name="verifyingPasswordErrorMessage"/>
+                    <include name="verifyingUserAndPassWordErrorMessage"/>
+                    <include name="verifyingInvalidCredentialErrorMessage"/>
+                </methods>
+            </class>
+            <class name="com.class01.LogInTest">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validateTitle"/>
+                </methods>
+            </class>
+            <class name="com.class02.EnbleOdisable">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                    <include name="invalidLogin"/>
+                </methods>
+            </class>
+            <class name="com.class02.HomeWork">
+                <methods>
+                    <include name="invalidLogin"/>
+                </methods>
+            </class>
+            <class name="com.class02.Prioritize">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                    <include name="thirdMethod"/>
+                </methods>
+            </class>
+            <class name="com.class1.BeforeAndAfterMethod">
+                <methods>
+                    <include name="testMethodOne"/>
+                    <include name="testMethodTwo"/>
+                </methods>
+            </class>
+            <class name="com.class1.ExampleBatch9">
+                <methods>
+                    <include name="firstFunction"/>
+                    <include name="secondFunction"/>
+                    <include name="thirdFunction"/>
+                    <include name="fourthFunction"/>
+                </methods>
+            </class>
+            <class name="com.class1.LoginTestBatch9">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.class1.PreAndPostConditionBatch9">
+                <methods>
+                    <include name="firstFunction"/>
+                    <include name="secondFunction"/>
+                    <include name="thirdFunction"/>
+                </methods>
+            </class>
+            <class name="com.class2.AssertionsBatch9">
+                <methods>
+                    <include name="assertVerification"/>
+                </methods>
+            </class>
+            <class name="com.class2.DependsOnAttributeBatch9">
+                <methods>
+                    <include name="launchApplication"/>
+                    <include name="enterCredentials"/>
+                </methods>
+            </class>
+            <class name="com.class2.EnableAndDisableBatch9">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.class2.HardAssertionBatch9">
+                <methods>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+            <class name="com.class2.PriotityBatch9">
+                <methods>
+                    <include name="logoutMethod"/>
+                    <include name="loginMethod"/>
+                    <include name="enterCredentialsMethod"/>
+                    <include name="enterInvalidCrdentials"/>
+                    <include name="anotherTestMethod"/>
+                </methods>
+            </class>
+            <class name="com.class2.SoftAssertionBatch9">
+                <methods>
+                    <include name="softAssertionValidation"/>
+                </methods>
+            </class>
+            <class name="com.class2.SoftAssertionHRMSBatch9">
+                <methods>
+                    <include name="loginAndValidateTitle"/>
+                </methods>
+            </class>
+            <class name="com.class2.Task2Batch9">
+                <methods>
+                    <include name="invalidLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
